@@ -1,107 +1,64 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <style>
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-        @keyframes pulse {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.05); }
-            100% { transform: scale(1); }
-        }
-        @keyframes slideIn {
-            from { transform: translateX(-50px); opacity: 0; }
-            to { transform: translateX(0); opacity: 1; }
-        }
-        .madun {
-            font-size: 48px;
-            font-weight: bold;
-            background: linear-gradient(45deg, #ff0000, #00ff00, #0000ff);
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-            animation: pulse 1s infinite;
-        }
-        .fade { animation: fadeIn 1s ease-in; }
-        .slide { animation: slideIn 0.8s ease-out; }
-        .box {
-            border: 2px solid #00ff00;
-            padding: 20px;
-            margin: 20px 0;
-            border-radius: 10px;
-            animation: fadeIn 1.5s;
-        }
-    </style>
-</head>
-<body>
+<div align="center">
+  
+# ✨ 𝓜𝓐𝓓𝓤𝓝 𝓤𝓑𝓞𝓣 ✨
 
-<div class="fade">
-    <h1 class="madun">⚡ MADUN UBOT ⚡</h1>
-    <p><i>Bot Pembuat Userbot Telegram | GRATIS & PERMANEN</i></p>
-</div>
+<img src="https://readme-typing-svg.demolab.com?font=Segoe+UI+Emoji&weight=800&size=35&duration=2000&pause=500&color=F7F700&center=true&vCenter=true&random=false&width=600&height=60&lines=⚡+BOT+PEMBUAT+USERBOT+⚡;🌟+GRATIS+%26+PERMANEN+🌟;🔥+NO+EXPIRED+🔥;🚀+MULTI+USERBOT+🚀;💎+ANTI+DELAY+💎" alt="Typing SVG" />
 
-<div class="slide box">
-    <h2>📌 FITUR UNGGULAN</h2>
-    <ul>
-        <li>✅ Buat Userbot <b>GRATIS</b></li>
-        <li>✅ <b>PERMANEN</b> - Tidak Ada Expired</li>
-        <li>✅ Wajib Join Channel @newmadun</li>
-        <li>✅ Notifikasi Owner & Channel</li>
-        <li>✅ Multi Userbot Support</li>
-        <li>✅ OTP Wajib Pakai Spasi</li>
-        <li>✅ Auto Restart Userbot</li>
-    </ul>
-</div>
+<br>
 
-<div class="slide box">
-    <h2>📝 CARA PENGGUNAAN</h2>
-    <ol>
-        <li>Start bot: <code>/start</code></li>
-        <li>Klik tombol <b>BUAT USERBOT GRATIS</b></li>
-        <li>Masukkan nomor Telegram (contoh: +628123456789)</li>
-        <li>Masukkan OTP <b>WAJIB PAKAI SPASI</b> (contoh: 1 2 3 4 5)</li>
-        <li>Masukkan password 2FA (jika ada)</li>
-        <li>Userbot siap digunakan!</li>
-    </ol>
-</div>
+[![Status](https://img.shields.io/badge/Status-Online-00FF00?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/ubotfreemadunbot)
+[![Version](https://img.shields.io/badge/Version-2.0.0-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/danisnisatata/madun-ubot)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](LICENSE)
 
-<div class="slide box">
-    <h2>🔧 PERINTAH OWNER</h2>
-    <table border="1" cellpadding="10">
-        <tr><th>Perintah</th><th>Fungsi</th></tr>
-        <tr><td><code>cb_restart</code></td><td>Restart bot utama</td></tr>
-        <tr><td><code>cb_gitpull</code></td><td>Update dari GitHub</td></tr>
-        <tr><td><code>cek_ubot</code></td><td>Lihat semua userbot</td></tr>
-        <tr><td><code>del_ubot</code></td><td>Hapus userbot</td></tr>
-    </table>
-</div>
+---
 
-<div class="slide box">
-    <h2>📦 DEPLOY SENDIRI</h2>
-    <pre><code>
-git clone https://github.com/danisnisatata/madun-ubot.git
-cd madun-ubot/PyroUbot
-pip3 install -r requirements.txt
-pip3 install uvloop==0.17.0 pymongo dnspython pytz
-python3 -m PyroUbot
-    </code></pre>
-</div>
+## 🎯 **FITUR LENGKAP**
 
-<div class="slide box">
-    <h2>👤 KONTAK</h2>
-    <ul>
-        <li>Owner: <b>@kingmadun</b></li>
-        <li>Channel: <b>@newmadun</b></li>
-        <li>Bot Utama: <b>@ubotfreemadunbot</b></li>
-    </ul>
-</div>
+<table>
+<tr>
+<td>
 
-<div class="fade">
-    <p align="center"><b>MADUN UBOT | GRATIS SELAMANYA</b></p>
-</div>
+| 🚀 Fitur | 📝 Keterangan |
+|----------|---------------|
+| ✅ **GRATIS** | Selamanya tanpa biaya |
+| ✅ **PERMANEN** | Tidak ada masa expired |
+| ✅ **MULTI USERBOT** | Bisa buat banyak |
+| ✅ **AUTO RESTART** | Otomatis restart jika error |
 
-</body>
-</html>
+</td>
+<td>
+
+| 🚀 Fitur | 📝 Keterangan |
+|----------|---------------|
+| ✅ **ANTI DELAY** | Respon cepat |
+| ✅ **OTP SPASI** | Input OTP wajib pakai spasi |
+| ✅ **NOTIF OWNER** | Setiap aksi terpantau |
+| ✅ **JOIN CHANNEL** | Wajib join @newmadun |
+
+</td>
+</tr>
+</table>
+
+---
+
+## 📝 **CARA PENGGUNAAN**
+
+```markdown
+1. START BOT
+   └─ /start
+
+2. KLIK TOMBOL
+   └─ BUAT USERBOT GRATIS
+
+3. MASUKKAN NOMOR
+   └─ Contoh: +628123456789
+
+4. MASUKKAN OTP
+   └─ WAJIB PAKAI SPASI!
+   └─ Contoh: 1 2 3 4 5
+
+5. MASUKKAN PASSWORD 2FA
+   └─ Jika ada password Telegram
+
+6. SELESAI! 🎉
+   └─ Userbot siap dipakai
